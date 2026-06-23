@@ -1,0 +1,1 @@
+The editable Photoshop source file is included in animated_gif_project.psd.zip. Please unzip the archive to access the PSD source document.
