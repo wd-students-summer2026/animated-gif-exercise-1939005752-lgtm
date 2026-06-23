@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Animated GIF Exercise | Ziqing Zhong</title>
+  <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
+  <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="css/tablet.css">
+  <link rel="stylesheet" media="only screen and (min-width: 961px)" href="css/desktop.css">
+  <meta name="viewport" content="initial-scale=1">
+  <style>
+    .gif-project { max-width: 1040px; margin: 0 auto; }
+    .gif-hero {
+      padding: 2.25rem;
+      border-radius: 18px;
+      background: linear-gradient(135deg, #081f31, #164a61 48%, #6b2f81);
+      color: #ffffff;
+      box-shadow: 0 14px 36px rgba(8, 31, 49, 0.22);
+    }
+    .gif-hero h1 { margin: 0; color: #ffffff; }
+    .gif-hero p { margin: 0.8rem 0 0; max-width: 760px; line-height: 1.7; color: #eaf7fb; }
+    .animation-frame {
+      margin-top: 2rem; padding: 1rem; border-radius: 18px; background: #ffffff;
+      box-shadow: 0 14px 36px rgba(8, 31, 49, 0.12);
+    }
+    .animation-frame img { display: block; width: 100%; height: auto; border-radius: 11px; }
+    .animation-note { margin: 1rem 0 0; color: #4c5a66; font-size: 0.95rem; line-height: 1.6; }
+    .gif-details { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin-top: 2rem; }
+    .detail-card { padding: 1.4rem; border-radius: 16px; background: #ffffff; box-shadow: 0 8px 22px rgba(8, 31, 49, 0.08); }
+    .detail-card h2 { margin-top: 0; color: #18324a; }
+    .detail-card p, .detail-card li { line-height: 1.65; }
+    @media (max-width: 700px) {
+      .gif-hero { padding: 1.5rem; }
+      .gif-details { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a class="site-name" href="index.html">Ziqing Zhong</a>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about_me.html">About Me</a></li>
+          <li><a href="more_about_me.html">Experiences</a></li>
+          <li><a href="topic_of_interest.html">JQuery Assignment</a></li>
+          <li><a href="user_experience_design.html">UX Design</a></li>
+          <li><a href="professional_site.html">Professional Site</a></li>
+          <li><a href="photoshop.html">Raster Image</a></li>
+          <li><a class="active" href="animated_gif.html">Animated GIF</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="gif-project">
+      <section class="gif-hero">
+        <p class="eyebrow">Animated GIF Exercise</p>
+        <h1>Dream Traveler</h1>
+        <p>
+          <strong>Journey Through Impossible Worlds</strong> is a surreal travel
+          animation that transforms a familiar coastal scene into a dreamlike
+          world of shifting northern lights, moving hot-air balloons, atmospheric
+          effects, and cinematic color changes.
+        </p>
+      </section>
+
+      <section class="animation-frame" aria-label="Dream Traveler animated GIF">
+        <img src="./images/dream_traveler.gif"
+             alt="Animated Dream Traveler GIF by Ziqing Zhong with northern lights, a coastal landscape, and hot-air balloons">
+        <p class="animation-note">
+          This GIF loops continuously. It was created using layered image editing,
+          position and opacity changes, transformations, color adjustments, and
+          animated opening and closing credits.
+        </p>
+      </section>
+
+      <section class="gif-details">
+        <article class="detail-card">
+          <h2>Story</h2>
+          <p>
+            The animation begins with travel imagery, gradually shifts into an
+            impossible night landscape, and ends as a dreamy, cinematic travel
+            memory. The sequence combines a personal appearance with a fictional
+            visual world.
+          </p>
+        </article>
+
+        <article class="detail-card">
+          <h2>Animation Techniques</h2>
+          <ul>
+            <li>Opening and closing title credits with my name.</li>
+            <li>Opacity fades for the sky, aurora, and text.</li>
+            <li>Position and scale changes for the subject and balloons.</li>
+            <li>Layer transformations, color grading, glow, and atmospheric effects.</li>
+            <li>More than 20 individual animation frames in the editable source file.</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        <a href="index.html">Home</a> |
+        <a href="about_me.html">About Me</a> |
+        <a href="more_about_me.html">Experiences</a> |
+        <a href="topic_of_interest.html">JQuery Assignment</a> |
+        <a href="user_experience_design.html">UX Design</a> |
+        <a href="professional_site.html">Professional Site</a> |
+        <a href="photoshop.html">Raster Image</a> |
+        <a href="animated_gif.html">Animated GIF</a> |
+        <a href="contact.html">Contact Me</a>
+      </p>
+      <p>&copy; 2026 Ziqing Zhong | Introduction to Web Design</p>
+    </footer>
+  </div>
+</body>
+</html>
